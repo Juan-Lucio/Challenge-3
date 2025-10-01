@@ -1,124 +1,119 @@
-📌 Digital NAO Challenge – Project Repository
-📖 Project Overview
+# 📚 Digital NAO Challenge – Research Data Integration
 
-The Digital NAO Challenge focuses on solving the problem of automating the integration of information about researchers and published articles at a university.
-The solution retrieves data from the Google Scholar API and integrates it into the institution’s research database using Java (MVC) and MySQL.
+This project addresses the challenge of **automating the integration of information about researchers and published articles at a university**.  
+Using the **Google Scholar API**, the system retrieves relevant data and integrates it into the institution’s research database, ensuring **efficient server/database interaction** and improved research data management.
 
-Final deliverables:
+---
 
-PDF Report (analysis & results).
+## 🚀 Project Overview
 
-MP4 Video Presentation (visual storytelling).
+- **Objective:** Automate the retrieval and integration of researcher and publication data.  
+- **Technology:** Java, MVC architecture, Google Scholar API, MySQL Server 2022.  
+- **Method:** Work is divided into **3 sprints** with a final integrated solution.  
+- **Deliverables:**  
+  - PDF report (analysis + results).  
+  - MP4 video presentation (visual storytelling).  
+  - Finalized **backlog** and **roadmap**.
 
-Backlog & Roadmap (integrated into final submission).
+---
 
-🚀 Project Sprints
-Sprint 1
+## 📅 Project Roadmap
 
-Research Google Scholar API.
+### Sprint 1
+- Research Google Scholar API & produce a technical report.  
+- Initialize GitHub repository.  
+- Create **backlog** and **roadmap**.  
 
-Produce a technical report.
+### Sprint 2
+- Implement **Java GET requests** to Google Scholar Author API.  
+- Apply **MVC design pattern**.  
+- Test and document code.  
+- Update backlog and roadmap.  
 
-Initialize GitHub repository.
+### Sprint 3
+- Integrate retrieved API data into a **structured MySQL database**.  
+- Handle pagination and API errors.  
+- Update backlog and roadmap with final requirements.  
 
-Create backlog and roadmap.
+### Final Submission
+- Deliver the **integrated solution**.  
+- Provide:  
+  - **PDF report** (analysis and results).  
+  - **MP4 video presentation** (summary).  
+  - **Backlog & Roadmap** (updated and included).  
 
-Sprint 2
+---
 
-Develop Java code for API GET requests.
+## 📋 Backlog
 
-Apply MVC design pattern.
+### User Stories
+1. As a researcher, I want my articles to be retrieved automatically, so I don’t update them manually.  
+2. As a DB admin, I want API data mapped into the DB, so information stays consistent.  
+3. As a project leader, I want API documentation, so future developers can maintain the solution.  
+4. As a developer, I want MVC structure, so the system is modular and maintainable.  
+5. As a staff member, I want a report & video, so results are presented effectively.  
 
-Test and document code.
+### Requirements Tracking
 
-Update backlog & roadmap.
+**Table 1 – Requirements List**
 
-Sprint 3
+| User Stories | Requirements |
+|--------------|--------------|
+| Researcher needs auto-retrieval of articles | Implement GET requests, handle pagination/errors |
+| DB admin wants data consistency | Design DB schema, JSON → SQL integration |
+| Leader wants documentation | Produce API technical report |
+| Developer wants MVC | Implement Model, View, Controller classes |
+| Staff wants final results | Produce PDF + MP4 presentation |
 
-Integrate API data into MySQL database.
+**Table 2 – Prioritized Requirements**
 
-Handle pagination & API errors.
+| Requirements | Stage | Time Estimation | Deliverables |
+|--------------|-------|-----------------|--------------|
+| Research API, document endpoints | Sprint 1 | 1 week | API technical report |
+| Initialize repo, backlog & roadmap | Sprint 1 | 1 week | GitHub repo + docs |
+| Implement GET requests & MVC | Sprint 2 | 2 weeks | Java code, API tests |
+| Handle pagination & errors | Sprint 2 | 1 week | Updated tested code |
+| Integrate JSON → DB | Sprint 3 | 2 weeks | Populated research DB |
+| Document DB integration | Sprint 3 | 1 week | Integration report |
+| Final report & video | Final | 1 week | PDF + MP4 |
 
-Update backlog & roadmap with final results.
+---
 
-Final Submission
+## 👥 Project Roles
 
-Deliver integrated solution.
+- **Renata (Leader):** Oversees project, ensures deadlines, prepares presentation.  
+- **Elizabeth (Developer):** Implements API requests in Java, applies MVC.  
+- **Sandra (DB Specialist):** Designs DB schema, manages integration.  
 
-Provide PDF + MP4 presentation.
+---
 
-Include final backlog & roadmap.
+## ✅ Evaluation Criteria
 
-📋 Backlog
-User Stories
+- Proper server & database interaction.  
+- Correct handling of the Google Scholar API.  
+- Application of **MVC architecture**.  
+- Innovation and efficiency of the solution.  
+- Visual storytelling in the final presentation.  
 
-As a researcher, I want my published articles to be automatically retrieved from Google Scholar, so that I don’t waste time updating them manually.
+---
 
-As a database administrator, I want the system to map retrieved data into the database structure, so that all information remains consistent.
+## 📂 Final Deliverables
 
-As a project leader, I want clear documentation of the API usage, so that future developers can maintain and improve the solution.
+- **Java Source Code** (API integration + MVC).  
+- **Database scripts** (MySQL).  
+- **Technical Documentation** (API & DB).  
+- **Backlog and Roadmap**.  
+- **Final PDF Report**.  
+- **Final MP4 Presentation**.  
 
-As a developer, I want to implement the MVC architecture, so that the system remains modular and maintainable.
+---
 
-As a university staff member, I want a report and video presentation at the end, so that results can be communicated effectively to stakeholders.
+## 🛠️ Tech Stack
 
-Requirements List (Table 1)
-User Stories	Requirements
-Researcher wants auto-retrieved articles	Implement GET requests to Google Scholar API, handle pagination & errors.
-Database admin wants structured data	Design DB schema, integrate JSON → SQL mapping, ensure consistency.
-Project leader wants documentation	Technical report of API endpoints, request examples, error handling notes.
-Developer wants MVC modularity	Create Java classes for Model, View, Controller; separate logic properly.
-Staff wants clear results	Produce final PDF report and MP4 presentation.
-Prioritized List (Table 2)
-Requirements	Stage (Sprint)	Time Estimation	Deliverables
-Research API & document endpoints	Sprint 1	1 	API technical report
-Initialize GitHub repo + backlog/roadmap	Sprint 1	1 week	Repo + backlog + roadmap
-Implement GET requests & MVC structure	Sprint 2	2 weeks	Java code with MVC
-Handle pagination & API error management	Sprint 2	1 week	Tested, robust code
-Integrate JSON results into SQL DB	Sprint 3	2 weeks	Populated research DB
-Document DB integration & test results	Sprint 3	1 week	Integration report
-Final report & video	Final Submission	1 week	PDF + MP4 presentation
-🗺️ Roadmap
+- **Language:** Java  
+- **Architecture:** MVC  
+- **Database:** MySQL Server 2022  
+- **API:** Google Scholar API  
+- **Version Control:** GitHub  
 
-Title: Roadmap – Digital NAO Challenge: Automating Researcher Data Integration
-
-Objectives
-
-General: Automate researcher/publication data integration using Google Scholar API.
-
-Specific:
-
-Retrieve researcher/article info automatically.
-
-Store results in MySQL database.
-
-Apply MVC for modularity.
-
-Deliver report & presentation.
-
-
-👥 Team Roles & Task Assignments
-
-Renata (Project Leader):
-
-Oversee progress & deadlines.
-
-Prepare final presentation (PDF & MP4).
-
-Ensure backlog & roadmap updates.
-
-Elizabeth (Developer):
-
-Research & document API usage.
-
-Implement Java code (MVC + GET requests).
-
-Manage pagination & error handling.
-
-Sandra (DB Specialist):
-
-Design database schema (MySQL).
-
-Map JSON → SQL integration.
-
-Test & validate DB consistency.
+---
