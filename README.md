@@ -69,13 +69,13 @@ Using the **Google Scholar API**, the system retrieves relevant data and integra
 
 | Requirements | Stage | Time Estimation | Deliverables |
 |--------------|-------|-----------------|--------------|
-| Research API, document endpoints | Sprint 1 | 1 week | API technical report |
-| Initialize repo, backlog & roadmap | Sprint 1 | 1 week | GitHub repo + docs |
-| Implement GET requests & MVC | Sprint 2 | 2 weeks | Java code, API tests |
-| Handle pagination & errors | Sprint 2 | 1 week | Updated tested code |
-| Integrate JSON → DB | Sprint 3 | 2 weeks | Populated research DB |
-| Document DB integration | Sprint 3 | 1 week | Integration report |
-| Final report & video | Final | 1 week | PDF + MP4 |
+| Research API, document endpoints | Sprint 1 | 1 day | API technical report |
+| Initialize repo, backlog & roadmap | Sprint 1 | 1 day | GitHub repo + docs |
+| Implement GET requests & MVC | Sprint 2 | 2 day | Java code, API tests |
+| Handle pagination & errors | Sprint 2 | 1 day | Updated tested code |
+| Integrate JSON → DB | Sprint 3 | 1 day | Populated research DB |
+| Document DB integration | Sprint 3 | 1 day | Integration report |
+| Final report & video | Final | 1 day | PDF + MP4 |
 
 ---
 
