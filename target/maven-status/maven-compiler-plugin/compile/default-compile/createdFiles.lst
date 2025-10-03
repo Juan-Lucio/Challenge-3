@@ -1,0 +1,6 @@
+com\nao\controller\ResearcherController.class
+com\nao\view\ResearcherView.class
+com\nao\App.class
+com\nao\service\ScholarAPIService.class
+com\nao\model\Article.class
+com\nao\model\Researcher.class
