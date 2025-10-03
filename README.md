@@ -1,4 +1,4 @@
-# Google Scholar Researcher Viewer
+# Google Scholar Researcher
 
 This project is a **Java application** that retrieves and displays information about researchers from **Google Scholar** using the [SerpAPI](https://serpapi.com/google-scholar-author-api).  
 It provides two types of user interfaces:  
@@ -86,7 +86,8 @@ If using Maven, add to your pom.xml:
 Open ScholarAPIService.java.
 
 Replace YOUR_API_KEY_HERE with your real SerpAPI key.
-▶️ How to Run
+
+**▶️ How to Run**
 
 Run the main class:
 App.java
@@ -95,7 +96,7 @@ The GUI window will open.
 Enter a Google Scholar Author ID (for example: 
 Vz3qkF8AAAAJ) and click Search Author.
 
-Results will appear:
+**Results will appear:**
 
 Researcher’s name and total citations in the left panel.
 
