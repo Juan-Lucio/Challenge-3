@@ -33,9 +33,6 @@ Before installation, ensure you have:
 ## Step-by-Step Installation
 
 # IDE Setup
-
-## Opening the Project in Your IDE
-
 ### Recommended IDEs
 - IntelliJ IDEA
 - Eclipse
@@ -59,13 +56,8 @@ Before installation, ensure you have:
 
 After opening the project, ensure the following structure is visible in your IDE's project explorer:
 
-## STEP5_RUN.md
-
 
 # How to Run
-
-## Running the Application
-
 ### From the IDE
 
 1. **Locate the main class**: `App.java` in `src/main/java/com/nao/`.
