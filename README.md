@@ -71,8 +71,7 @@ A valid SerpApi API key — get one for free at https://serpapi.com/
 
 Clone the repository
 
-git clone https://github.com/<your-username>/google-scholar-lookup.git
-cd google-scholar-lookup
+git clone https://github.com/Juan-Lucio/Challenge-3.git
 
 
 Open the project in your IDE (IntelliJ IDEA, Eclipse, VS Code, etc.)
@@ -124,7 +123,6 @@ Maven dependencies example:
         <artifactId>jackson-databind</artifactId>
         <version>2.17.0</version>
     </dependency>
-
     <dependency>
         <groupId>org.apache.httpcomponents.client5</groupId>
         <artifactId>httpclient5</artifactId>
@@ -172,12 +170,8 @@ If the ID is invalid or unavailable, a message box will appear showing the corre
 │ (Data model class)   │
 └──────────────────────┘
 
-🧾 License
-
-This project is released under the MIT License.
-You are free to use, modify, and distribute it with attribution.
 
 👨‍💻 Author
 
-Developed by: [Your Name]
-GitHub: https://github.com/your-username
+Developed by: Juan Lucio Aurelio
+GitHub: https://github.com/Juan-Lucio/Challenge-3.git
