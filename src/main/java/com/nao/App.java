@@ -3,26 +3,32 @@ package com.nao;
 import com.nao.controller.ResearcherController;
 import com.nao.service.ScholarAPIService;
 import com.nao.view.ResearcherGUI;
-import com.nao.view.ResearcherView;
 
 import javax.swing.*;
 
+/**
+ * Entry point for the application.
+ * Initializes the MVC components and launches the GUI on the Event Dispatch Thread.
+ */
 public class App {
     public static void main(String[] args) {
-        ScholarAPIService service = new ScholarAPIService();
-        ResearcherView consoleView = new ResearcherView();
 
+        // Ensures all Swing UI actions run on the dedicated Event Dispatch Thread
         SwingUtilities.invokeLater(() -> {
-            // 1. Crear GUI vacía
+
+            // Creates the service layer (handles API calls)
+            ScholarAPIService service = new ScholarAPIService();
+
+            // Creates the GUI (view layer)
             ResearcherGUI gui = new ResearcherGUI();
 
-            // 2. Crear controlador y enlazar con la GUI
-            ResearcherController controller = new ResearcherController(service, consoleView, gui);
+            // Creates the controller and injects dependencies
+            ResearcherController controller = new ResearcherController(service, gui);
 
-            // 3. Inyectar controller en la GUI
+            // Links the controller to the GUI
             gui.setController(controller);
 
-            // 4. Mostrar GUI
+            // Displays the window
             gui.setVisible(true);
         });
     }
