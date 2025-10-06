@@ -1,0 +1,14 @@
+com\nao\view\TextAreaRenderer.class
+com\nao\dao\ArticleDAO.class
+com\nao\model\Article.class
+com\nao\App.class
+com\nao\view\ButtonRenderer.class
+com\nao\controller\ResearcherController.class
+com\nao\view\ButtonEditor$ButtonClickListener.class
+com\nao\service\DBService.class
+com\nao\dao\DatabaseConfig.class
+com\nao\view\ResearcherGUI.class
+com\nao\service\ScholarAPIService.class
+com\nao\view\ButtonEditor.class
+com\nao\model\Researcher.class
+com\nao\view\ArticleTableModel.class
